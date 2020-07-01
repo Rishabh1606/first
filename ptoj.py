@@ -16,10 +16,10 @@ print(cleaned_data)
 
 
 
-for key, value in cleaned_data.items():
-    print(key, value)
+# for key, value in cleaned_data.items():
+#     print(key, value)
 
-for key, value in pdf_data.items():
-    if value is not None:
-        clean_key = key.replace("[0]", "").strip()
+# for key, value in pdf_data.items():
+#     if value is not None:
+#         clean_key = key.replace("[0]", "").strip()
         # print(clean_key, value)
